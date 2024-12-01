@@ -1,0 +1,149 @@
+.question-container{
+    /* width: 100vw; */
+    margin: 50px auto;
+    position: relative;
+    top: 20vh;
+    left: 5vw;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+.question-header{
+    /* Title Header "Lich su hoi dap" */
+    color: rgb(36, 47, 72);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question-table-container{
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.question-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.question-table-header{
+    background-color: rgb(54, 66, 97);
+    color: #fff !important; 
+    text-align: left !important;
+    /* border: 1px solid #364261; */
+    /* border-radius: 10px 10px 0 0; */
+    font-weight: bold; 
+}
+.question-table-header .MuiTableCell-root {
+    color: white; /* Màu trắng cho từng ô trong header */
+}
+
+.question-table-header th {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    /* min-width: 100px; */
+}
+/* begin of question component in a row  */
+.STT{
+    min-width: 50px;
+    width: fit-content;
+    text-align: center !important;
+}
+
+.asker{
+    min-width: 120px;
+    width: fit-content;
+    text-align: left !important;
+}
+.askdate{
+    min-width: 90px;
+    width: fit-content;
+    text-align: left !important;
+}
+
+.answered{
+    min-width: 100px;
+    width: fit-content;
+    text-align: left !important;
+}
+/* end of question component in a row  */
+
+.question-table-body tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.question-table-body tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.question-table-body td{
+    padding: 10px;
+    text-align: left;
+}
+
+/* answer button */
+.reply-button {
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100px;
+    transition: background-color 0.2s ease;
+}
+
+.reply-button:hover {
+    background-color: #0056b3;
+}
+
+/* begin of paging */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.pagination-container button {
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #007bff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.pagination-container button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination-container button:hover {
+    background-color: #e7f0fc;
+}
+
+.pagination-container button:disabled {
+    background-color: #f1f1f1;
+    color: #aaa;
+    cursor: not-allowed;
+}
+  
+.pagination-container button:hover:not(:disabled) {
+    background-color: #e7f0fc;
+}
+
+/* end of paging */
+
+
+
+
+
+
+
+
+
+
+

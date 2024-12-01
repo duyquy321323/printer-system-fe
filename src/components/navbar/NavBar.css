@@ -1,0 +1,152 @@
+/* Container for the entire navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* flex-shrink: 0; */
+    align-items: center;
+    background-color: #ffffff; /* Chuyển nền thành màu trắng */
+    padding: 10px 30px;
+    color: #34495e;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e0e0e0; /* Tạo viền nhạt ở đáy */
+}
+
+/* Logo */
+.navbar-logo h2 {
+    margin: 0 ;
+    padding: 8px 10px;
+    weight: 20%;
+    font-size: 36px; /* Nhỏ hơn một chút */
+    font-weight: bold;
+    color: #34495e;
+    cursor: pointer;
+}
+
+/* Search bar */
+.navbar-search {
+    display: flex;
+    align-items: center;
+    margin-left: -450px;
+    background-color: #ffffff; /* Thay đổi màu nền thanh tìm kiếm */
+    border-radius: 50px;
+    width: 550px; /* Thu nhỏ chiều rộng */
+    padding: 10px 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.navbar-search input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px; /* Thu nhỏ chữ */
+    background-color: transparent; /* Làm nền trong suốt */
+    color: #34495e;
+}
+
+.navbar-search-icon {
+    margin-left: 10px;
+    color: #34495e;
+    cursor: pointer;
+  }
+  
+
+/* Icons container */
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    /* margin-left: 900px; */
+    gap: 10px; 
+}
+
+.navbar-icon {
+    margin-left: 30px;
+    cursor: pointer;
+    width: 33px;
+    height: 30px;
+    
+    color: #34495e; /* Đổi màu thành tối */
+    transition: color 0.3s ease, transform 0.3s ease; /* Thêm hiệu ứng */
+}
+
+/* Avatar styling */
+.navbar-avatar {
+    margin-left: 30px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent; /* Không có viền mặc định */
+    border-radius: 50%; /* Đảm bảo tròn */
+    transition: border 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-avatar:hover {
+    border: 2px solid #1abc9c; /* Thêm hiệu ứng hover */
+    transform: scale(1.1); /* Phóng to nhẹ */
+}
+
+/* Hover effect for icons */
+.navbar-icon:hover {
+    color: #1abc9c; /* Màu xanh hover */
+    transform: scale(1.1); /* Phóng to nhẹ khi hover */
+}
+
+.MuiMenu-paper {
+    border-radius: 8px; /* Góc bo tròn cho menu */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Thêm bóng mờ */
+    background-color: #ffffff; /* Màu nền menu */
+    min-width: 180px; /* Đảm bảo menu có chiều rộng nhất định */
+    padding: 10px 0; /* Padding để các mục trong menu không bị sát nhau */
+  }
+  
+  /* Mục trong menu */
+  .MuiMenuItem-root {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #34495e;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  /* Hover effect cho mục trong menu */
+  .MuiMenuItem-root:hover {
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  /* Điều chỉnh icon trong mục menu */
+  .MuiMenuItem-root svg {
+    margin-right: 10px; /* Khoảng cách giữa icon và text */
+    font-size: 20px; /* Đảm bảo icon có kích thước vừa phải */
+  }
+  
+  /* Đảm bảo rằng menu không bị cắt ra khỏi màn hình */
+  .MuiMenu-list {
+    padding: 0;
+    margin: 0;
+  }
+  
+
+/* Responsive design for mobile screens */
+/* @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px; /* Giảm padding cho mobile */
+    /* }
+    .navbar-search {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .navbar-icons {
+        margin-top: 10px;
+    }
+} */ 

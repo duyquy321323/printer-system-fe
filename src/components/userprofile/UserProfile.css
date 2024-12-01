@@ -1,0 +1,117 @@
+.user-backgr{
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 20px 34px 5px rgba(0, 0, 0, 0.10);
+width: 76%;
+height: 660px;
+margin-left: auto;
+margin-top: 125px;
+margin-right: 60px;
+}
+
+.user-backgr .user-container{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.user-backgr .user-container .header-user{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 75px;
+    color: #242F48;
+font-family: Afacad;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 119.048% */
+border-bottom: 1px solid #D0D5DD;
+}
+
+.user-backgr .user-container .button-change-user{
+    all: unset;
+    text-align: center;
+    width: 159px;
+height: 36px;
+border-radius: 120px;
+background: #0764EC;
+color: #FFF;
+font-family: Afacad;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+align-self: flex-end;
+cursor: pointer;
+margin-top: 23px;
+margin-bottom: 37px;
+line-height: 25px; /* 119.048% */
+}
+
+.user-backgr .user-container .content-user{
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
+
+.user-backgr .user-container .content-user .title-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.user-backgr .user-container .content-user .title-user h3{
+    width: 220px;
+height: 30px;
+border-radius: 20px;
+color: #FFF;
+font-family: Afacad;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 119.048% */
+background: #0764EC;
+}
+
+.user-backgr .user-container .content-user .title-user img{
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+}
+
+.content-user .form-user{
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+    margin-top: 42px;
+}
+
+.content-user .form-user .form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: #242F48;
+font-family: Afacad;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 156.25% */
+}
+
+.content-user .form-user .form .inp-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-user .form-user .form .inp-box input{
+    all: unset;
+    width: 350px;
+height: 35px;
+border-radius: 10px;
+background: #EBEFFA;
+padding: 10px;
+}

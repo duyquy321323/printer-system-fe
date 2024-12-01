@@ -1,0 +1,157 @@
+
+.documents-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px; /* Tạo khoảng cách với thanh NavBar */
+    margin-left:auto;
+  }
+  .documents-container .breadcrumb {
+    margin-top: 70px;
+    
+  }
+  /* .breadcrumb {
+    margin-bottom: 1000px;
+  } */
+  
+  .breadcrumbs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .breadcrumbs a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumbs .MuiTypography-root {
+    color: #000;
+  }
+  .icon {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .tablecontainer {
+    margin-top: 20px;
+    margin-left: 8px;
+    border-radius: 10px 10px 0 0;
+  }
+  .documents-header {
+    width: 1400px;
+    padding: 20px;
+    /* margin-left: 10%; */
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Màu nền cho header */
+    border-radius: 50px; /* Bo tròn góc */
+  }
+  .documents-table {
+    border-radius: 10px;
+  }
+  .table-header {
+    background-color: #364261; /* Màu xanh dương cho tiêu đề bảng */
+    color: white; /* Màu chữ trắng */
+    border: 1px solid #364261;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .table-header th {
+    color: white; /* Màu chữ trắng */
+  }
+  .table-body {
+    border: 1px solid #ddd;
+  }
+  
+  .documents-table-container {
+    margin-bottom: 20px;
+    border: solid;
+  }
+  
+  .documents-list {
+    margin-top: 20px;
+  }
+  
+  .documents .document-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+  }
+  
+  .documents .document-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .documents .document-name {
+    font-weight: bold;
+    flex-grow: 1;
+  }
+  
+  .documents .document-date {
+    color: #888;
+    margin-right: 20px;
+  }
+  
+  .documents .edit-icon,
+  .documents .print-icon,
+  .documents .delete-icon,
+  .documents .view-icon {
+    color: #3f51b5;
+    cursor: pointer;
+  }
+  
+  .modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border: 2px solid #000;
+    box-shadow: 24px;
+    padding: 16px 32px 24px;
+    outline: none;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .actions-container {
+    width: 1400px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+  }
+  .remaining-container {
+    width: 20%;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+  }
+  .card-media {
+    component : "img";
+    width : 50px;
+    height : 50px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+  }

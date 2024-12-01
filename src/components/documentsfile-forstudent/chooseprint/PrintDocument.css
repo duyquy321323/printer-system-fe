@@ -1,0 +1,106 @@
+.print-document-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  
+  margin-top: 6%;
+
+}
+.documents-container .breadcrumb {
+  margin-top: 70px;
+  
+}
+/* .breadcrumb {
+  margin-bottom: 1000px;
+} */
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs .MuiTypography-root {
+  color: #000;
+}
+
+.printdocuments-header {
+  width: 1400px;
+  padding: 20px;
+  /* margin-left: 10%; */
+  margin-bottom: 20px;
+  background-color: #ffffff; /* Màu nền cho header */
+  border-radius: 50px; /* Bo tròn góc */
+}
+.icon {
+  margin-right: 5px;
+}
+.print-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  gap: 15px; /* Space between form fields */
+}
+.search-button {
+  margin-top: 20px;
+  align-self: flex-end;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Individual filter group styling */
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.print-table-container {
+  margin-top: 30px;
+}
+
+.table-header {
+  background-color: #343a40;
+}
+
+.table-header th {
+  color: white;
+  font-weight: bold;
+}
+
+.table-body-row:nth-of-type(odd) {
+  background-color: #f1f1f1;
+}
+
+.table-body-row:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.upload-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.upload-button:hover {
+  background-color: #218838;
+}
