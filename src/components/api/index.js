@@ -1,6 +1,6 @@
 import axios from 'axios';
 const api = axios.create({
-    baseURL: `${process.env.REACT_APP_BACKEND_URL}/`,
+    baseURL: `https://print-system-production.up.railway.app/`,
     withCredentials: true,
 })
 

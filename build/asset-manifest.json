@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.11656c0a.css",
-    "main.js": "/static/js/main.75ce57f2.js",
-    "static/media/homepage_background.jpg": "/static/media/homepage_background.86611164debfefc00743.jpg",
-    "static/media/bg-left.png": "/static/media/bg-left.5e986133b7d424eebadf.png",
-    "static/media/white-paper.png": "/static/media/white-paper.26802e532ff347232e71.png",
-    "static/media/color-paper.jpg": "/static/media/color-paper.33eb11d7ea8512fe9057.jpg",
-    "static/media/UserInfoImage.svg": "/static/media/UserInfoImage.9c4f1546c6b48ae961c6bd79408772de.svg",
-    "static/media/Illustration.png": "/static/media/Illustration.d1cad10563fcabe751f7.png",
-    "static/media/image.png": "/static/media/image.1834dfa6ed3a813fc93d.png",
-    "static/media/ImageIcon.svg": "/static/media/ImageIcon.332b7f0108aef6fe5824d01436146c72.svg",
-    "static/media/UploadIcon.svg": "/static/media/UploadIcon.09b30a1315e2c39b6cf8f41b7b38250e.svg",
-    "index.html": "/index.html",
-    "static/media/CloseIcon.svg": "/static/media/CloseIcon.8df679236c31441a71a44860dbc00ed3.svg",
-    "main.11656c0a.css.map": "/static/css/main.11656c0a.css.map",
-    "main.75ce57f2.js.map": "/static/js/main.75ce57f2.js.map"
+    "main.css": "/printer-system-fe/static/css/main.e74cf658.css",
+    "main.js": "/printer-system-fe/static/js/main.d40e414d.js",
+    "static/media/homepage_background.jpg": "/printer-system-fe/static/media/homepage_background.86611164debfefc00743.jpg",
+    "static/media/bg-left.png": "/printer-system-fe/static/media/bg-left.5e986133b7d424eebadf.png",
+    "static/media/white-paper.png": "/printer-system-fe/static/media/white-paper.26802e532ff347232e71.png",
+    "static/media/color-paper.jpg": "/printer-system-fe/static/media/color-paper.33eb11d7ea8512fe9057.jpg",
+    "static/media/UserInfoImage.svg": "/printer-system-fe/static/media/UserInfoImage.9c4f1546c6b48ae961c6bd79408772de.svg",
+    "static/media/Illustration.png": "/printer-system-fe/static/media/Illustration.d1cad10563fcabe751f7.png",
+    "static/media/image.png": "/printer-system-fe/static/media/image.1834dfa6ed3a813fc93d.png",
+    "static/media/ImageIcon.svg": "/printer-system-fe/static/media/ImageIcon.332b7f0108aef6fe5824d01436146c72.svg",
+    "static/media/UploadIcon.svg": "/printer-system-fe/static/media/UploadIcon.09b30a1315e2c39b6cf8f41b7b38250e.svg",
+    "index.html": "/printer-system-fe/index.html",
+    "static/media/CloseIcon.svg": "/printer-system-fe/static/media/CloseIcon.8df679236c31441a71a44860dbc00ed3.svg",
+    "main.e74cf658.css.map": "/printer-system-fe/static/css/main.e74cf658.css.map",
+    "main.d40e414d.js.map": "/printer-system-fe/static/js/main.d40e414d.js.map"
   },
   "entrypoints": [
-    "static/css/main.11656c0a.css",
-    "static/js/main.75ce57f2.js"
+    "static/css/main.e74cf658.css",
+    "static/js/main.d40e414d.js"
   ]
 }
