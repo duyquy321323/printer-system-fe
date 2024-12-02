@@ -38,7 +38,7 @@ const Support = () => {
     const handleClose = () => {
         setOpenDialog(false);
     };
-    const breadcrumbs = [<Link underline="hover" key="1" color="inherit" href="/"> Home </Link>, <Typography key="3" sx={{ color: 'text.primary' }}> Thanh toán </Typography>,];
+    const breadcrumbs = [<Link underline="hover" key="1" color="inherit" href="/"> Home </Link>, <Typography key="3" sx={{ color: 'text.primary' }}> Hỗ trợ </Typography>,];
 
     return (
         <Container maxWidth="lg" className="documents-container">
