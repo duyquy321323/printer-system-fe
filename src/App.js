@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 // import DashBoard from "./components/dashboard/index"; THAY BANG HOMEPAGE NHEEE

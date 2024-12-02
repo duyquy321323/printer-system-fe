@@ -30,7 +30,7 @@ const PrintingHistory = () => {
             }
         }
         getHistoryPrint();
-    }, []);
+    }, [userData.id]);
 
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;

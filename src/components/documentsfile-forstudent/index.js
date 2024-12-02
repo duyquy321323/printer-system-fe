@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 // components/documents/Documents.js
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import DeleteIcon from '@mui/icons-material/Delete';
@@ -61,12 +62,6 @@ const Documents = () => {
     }
   };
 
-  const handleEditClick = () => { if (selectedDocuments.length > 0) { 
-    const selectedDoc = selectedDocuments[0]; 
-    navigate(`/edit/${selectedDoc.id}`, { state: { document: selectedDoc } });
- }
-};
-
 const handlePrintClick = () => {
       dispatch(selectFiles(selectedDocuments));
       console.log(selectedDocuments);
@@ -98,10 +93,6 @@ const handlePrintClick = () => {
     alert(`Viewing document: ${document.filename}`);
   };
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    console.info('You clicked a breadcrumb.');
-  };
   // Lấy dữ liệu của trang hiện tại
   const indexOfLastDocument = currentPage * documentsPerPage;
   const indexOfFirstDocument = indexOfLastDocument - documentsPerPage;

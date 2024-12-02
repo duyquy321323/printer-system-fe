@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import "./homepage.css";
+import React from "react";
 import AnnouncementCard from "./AnnouncementCard";
-import { colors } from "@mui/material";
+import "./homepage.css";
 
 const Homepage = () => {
     const announcements = [

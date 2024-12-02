@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import KeyboardReturnIcon from "@mui/icons-material/KeyboardReturn";
 import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";

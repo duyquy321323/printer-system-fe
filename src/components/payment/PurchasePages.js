@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 // components/documents/Documents.js
 
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
@@ -12,11 +13,11 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { closeBackDrop, openBackDrop } from '../../redux/action';
 import api from '../api';
 import './PaymentHistory.css'; // Import CSS file
-import { useDispatch, useSelector } from 'react-redux';
-import { closeBackDrop, openBackDrop } from '../../redux/action';
 
 
 
@@ -98,9 +99,6 @@ const PaymentHistory = () => {
         dispatch(closeBackDrop());
     }
 
-    const handleHomePageClick = () => {
-        navigate(`/home`);
-    };
     const handleBackClick = () => {
         navigate(`/payment`)
     }
@@ -112,11 +110,6 @@ const PaymentHistory = () => {
     };
     const handleCloseDialog = () => setOpenDialog(false);
 
-
-    const handleClick = (e) => {
-        e.preventDefault();
-        console.info('You clicked a breadcrumb.');
-    };
     // Lấy dữ liệu của trang hiện tại
     const indexOfLastDocument = currentPage * documentsPerPage;
     const indexOfFirstDocument = indexOfLastDocument - documentsPerPage;

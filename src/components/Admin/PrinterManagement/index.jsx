@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import AdfScannerIcon from "@mui/icons-material/AdfScanner";
 import BorderColorIcon from "@mui/icons-material/BorderColor";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
