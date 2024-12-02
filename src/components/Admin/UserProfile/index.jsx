@@ -91,7 +91,7 @@ const UserProfile = ({ handleClose , user}) => {
           Trở lại
         </Button>
       </Box>
-      <Divider variant="middle" flexItem sx={{ "&.MuiDivider-root": { borderWidth: "1px" } }} />
+      <Divider variant="middle" flexItem sx={{ borderWidth: "1px"  }} />
       <Box sx={{ display: "flex", py: 4 }}>
         <Box sx={{ flex: 3, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
           <Avatar
@@ -108,7 +108,7 @@ const UserProfile = ({ handleClose , user}) => {
           orientation="vertical"
           variant="middle"
           flexItem
-          sx={{ "&.MuiDivider-root": { borderWidth: "1px" } }}
+          sx={{ borderWidth: "1px" }}
         />
         <Box sx={{ flex: 8, display: "flex", alignItems: "center", justifyContent: "center" }}>
           <Grid container spacing={2} sx={{ ml: { md: 5 } }}>
@@ -163,20 +163,19 @@ const UserProfile = ({ handleClose , user}) => {
           </Grid>
         </Box>
       </Box>
-      <Divider variant="middle" flexItem sx={{ "&.MuiDivider-root": { borderWidth: "1px" } }} />
+      <Divider variant="middle" flexItem sx={{borderWidth: "1px" }} />
       <Typography variant="h4" component="div" sx={{ p: 2, pl: 4 }}>
         Lịch sử in ấn
       </Typography>
-      <Box
-        sx={{
-          ".css-70zvr5-MuiTableContainer-root": {
+
+        <TableContainer 
+          container={Box}
+          sx={{
             marginX: "2rem",
             borderRadius: "10px",
             width: "auto",
-          },
         }}
-      >
-        <TableContainer>
+        >
           <Table>
             <TableHead className="table-header">
               <TableRow>
@@ -206,9 +205,7 @@ const UserProfile = ({ handleClose , user}) => {
             justifyContent="center"
             m={2}
             sx={{
-              ".css-1bug3cd-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected": {
-                backgroundColor: "#09bcff",
-              },
+                color: "#09bcff",
             }}
           >
             <Pagination
@@ -219,7 +216,6 @@ const UserProfile = ({ handleClose , user}) => {
                         />
           </Box>
         </TableContainer>
-      </Box>
     </Paper>
   );
 };

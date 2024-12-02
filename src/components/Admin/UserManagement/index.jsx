@@ -72,9 +72,9 @@ const UserManagement = () => {
           marginLeft: "375px",
           marginTop: "100px",
           marginRight: "40px",
-          ".css-1gtchvp-MuiPaper-root": {
+  
             borderRadius: "10px",
-          },
+
         }}
       >
         <Breadcrumbs separator="›" className="breadcrumb">
@@ -100,7 +100,7 @@ const UserManagement = () => {
                 sx={{
                   color: "black",
                   borderColor: "black",
-                  "&.MuiButtonBase-root": { textTransform: "none" },
+textTransform: "none" ,
                   width: "150px",
                   height: "50px",
                   borderRadius: "10px",
@@ -109,7 +109,7 @@ const UserManagement = () => {
                 Date
               </Button>
             </Box>
-            <Divider variant="middle" sx={{ "&.MuiDivider-root": { borderWidth: "1px" } }} />
+            <Divider variant="middle" sx={{ borderWidth: "1px" }} />
             <FormControl
               sx={{
                 m: 4,
@@ -130,16 +130,14 @@ const UserManagement = () => {
                 onChange={(e) => setNameSearch(e.target.value)}
               />
             </FormControl>
-            <Box
-              sx={{
-                ".css-70zvr5-MuiTableContainer-root": {
+              <TableContainer 
+                component={Box}
+                sx={{
                   marginX: "2rem",
                   borderRadius: "10px",
                   width: "auto",
-                },
               }}
-            >
-              <TableContainer>
+              >
                 <Table>
                   <TableHead className="table-header">
                     <TableRow>
@@ -192,9 +190,7 @@ const UserManagement = () => {
                   justifyContent="center"
                   m={2}
                   sx={{
-                    ".css-1bug3cd-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected": {
-                      backgroundColor: "#09bcff",
-                    },
+                      color: "#09bcff",
                   }}
                 >
                   <Pagination
@@ -205,7 +201,6 @@ const UserManagement = () => {
                         />
                 </Box>
               </TableContainer>
-            </Box>
           </Paper>
         )}
       </Box>

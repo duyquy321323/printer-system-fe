@@ -13,10 +13,7 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          backgroundColor: 'red',
-          '&:hover': {
-            backgroundColor: 'darkred',
-          },
+          
         },
       },
     },

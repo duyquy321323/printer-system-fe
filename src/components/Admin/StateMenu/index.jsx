@@ -42,7 +42,7 @@ const StateMenu = (props) => {
         MenuListProps={{
           "aria-labelledby": "btn-select-state",
         }}
-        sx={{ "&:hover .MuiButtonBase-root": { color: "black" } }}
+        sx={{color: "black" }}
       >
         <MenuItem onClick={() => {
             onChange("statusSPSO", "ACTIVE");

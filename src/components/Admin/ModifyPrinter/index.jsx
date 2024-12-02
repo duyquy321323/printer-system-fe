@@ -15,12 +15,32 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import React, { useEffect, useState } from "react";
 
+import { styled } from "@mui/material";
 import dayjs from "dayjs";
 import api from "../../api";
 
 const formatDate = (dateString) => {
   return dayjs(dateString);
 };
+
+const CustomForm = styled(Box)(({ theme }) => ({
+  display: "flex",
+  gap: "20px",
+  marginTop: theme.spacing(4),
+
+  "& .MuiTextField-root": {
+    width: "200px",
+  },
+  "& .MuiOutlinedInput-root fieldset": {
+    borderColor: "#09bcff",
+  },
+  "& .MuiOutlinedInput-root:hover fieldset": {
+    borderColor: "#09bcff",
+  },
+  "& .MuiOutlinedInput-root.Mui-focused fieldset": {
+    borderColor: "#09bcff",
+  },
+}));
 
 const status = [
   {
@@ -75,8 +95,8 @@ const ModifyPrinter = ({ open, handleClose, printer , handleSave}) => {
       onClose={handleClose}
       aria-labelledby="customized-dialog-title"
       open={open}
-      sx={{
-        ".css-10d30g3-MuiPaper-root-MuiDialog-paper": {
+      PaperProps={{
+        sx: {
           borderRadius: "10px",
           maxWidth: "1000px",
           height: "500px",
@@ -103,22 +123,7 @@ const ModifyPrinter = ({ open, handleClose, printer , handleSave}) => {
           <Typography gutterBottom>STT: {printer.id}</Typography>
           <Typography gutterBottom>Vị trí: {printer.address}</Typography>
         </Box>
-        <Box
-          component="form"
-          sx={{
-            "& .MuiTextField-root": { width: "200px" },
-            ".MuiOutlinedInput-root": {
-              "& fieldset": { borderColor: "#09bcff" },
-              "&:hover fieldset": { borderColor: "#09bcff" },
-              "&.Mui-focused fieldset": { borderColor: "#09bcff" },
-            },
-
-            display: "flex",
-            gap: "20px",
-            mt: 4,
-          }}
-          autoComplete="off"
-        >
+        <CustomForm>
           {console.log(formEdit)}
           <Box>
             <Typography gutterBottom>Trạng thái</Typography>
@@ -157,7 +162,7 @@ const ModifyPrinter = ({ open, handleClose, printer , handleSave}) => {
               <DatePicker value={formEdit.lastMaintenanceDate? formatDate(formEdit.lastMaintenanceDate) : null} onChange={(newValue) => setFormEdit((prev) => ({...prev, lastMaintenanceDate: newValue}))} />
             </LocalizationProvider>
           </Box>
-        </Box>
+        </CustomForm>
       </DialogContent>
       <DialogActions>
         <Button

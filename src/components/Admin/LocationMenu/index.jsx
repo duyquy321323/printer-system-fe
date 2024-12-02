@@ -42,7 +42,7 @@ const LocationMenu = (props) => {
         MenuListProps={{
           "aria-labelledby": "btn-select-location",
         }}
-        sx={{ "&:hover .MuiButtonBase-root": { color: "black" } }}
+        sx={{ color: "black" }}
       >
         <MenuItem onClick={() => {
             onChange("address", "CS1");
