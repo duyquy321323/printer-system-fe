@@ -77,9 +77,8 @@ const NavBar = () => {
         />
          <Avatar 
           className="navbar-avatar" 
-          sx={{ width: 40, height: 40 }} 
+          sx={{ width: 40, height: 40, paddingLeft: '10px' }} 
           alt="User Avatar" 
-          src="" 
           onClick={handleAvatarClick}
         />
         
