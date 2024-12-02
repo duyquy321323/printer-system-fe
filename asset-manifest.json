@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/printer-system-fe/static/css/main.41fa8723.css",
-    "main.js": "/printer-system-fe/static/js/main.1f514a39.js",
+    "main.js": "/printer-system-fe/static/js/main.edc60107.js",
     "static/media/homepage_background.jpg": "/printer-system-fe/static/media/homepage_background.86611164debfefc00743.jpg",
     "static/media/bg-left.png": "/printer-system-fe/static/media/bg-left.5e986133b7d424eebadf.png",
     "static/media/white-paper.png": "/printer-system-fe/static/media/white-paper.26802e532ff347232e71.png",
@@ -14,10 +14,10 @@
     "index.html": "/printer-system-fe/index.html",
     "static/media/CloseIcon.svg": "/printer-system-fe/static/media/CloseIcon.8df679236c31441a71a44860dbc00ed3.svg",
     "main.41fa8723.css.map": "/printer-system-fe/static/css/main.41fa8723.css.map",
-    "main.1f514a39.js.map": "/printer-system-fe/static/js/main.1f514a39.js.map"
+    "main.edc60107.js.map": "/printer-system-fe/static/js/main.edc60107.js.map"
   },
   "entrypoints": [
     "static/css/main.41fa8723.css",
-    "static/js/main.1f514a39.js"
+    "static/js/main.edc60107.js"
   ]
 }
