@@ -78,7 +78,7 @@ const ModifyPrinter = ({ open, handleClose, printer , handleSave}) => {
       sx={{
         ".css-10d30g3-MuiPaper-root-MuiDialog-paper": {
           borderRadius: "10px",
-          maxWidth: "800px",
+          maxWidth: "1000px",
           height: "500px",
         },
       }}
