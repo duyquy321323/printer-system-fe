@@ -190,7 +190,7 @@ const UserProfile = ({ handleClose , user}) => {
             <TableBody className="table-body">
               {historyPrint.map((item, index) => (
                 <TableRow key={index}>
-                  <TableCell>{item.datePrint}</TableCell>
+                  <TableCell>{formatDate(item.datePrint)}</TableCell>
                   <TableCell>{item.idPrinter}</TableCell>
                   <TableCell>{item.address}</TableCell>
                   <TableCell>{item.nameDocument}</TableCell>
