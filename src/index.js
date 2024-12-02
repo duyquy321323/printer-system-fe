@@ -1,4 +1,4 @@
-import { ThemeProvider } from '@mui/material';
+import { CssBaseline, ThemeProvider } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import React from "react";
 import ReactDOM from "react-dom";
@@ -26,6 +26,7 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
     <ThemeProvider theme={theme}>
+      <CssBaseline/>
       <App />
   </ThemeProvider>
     </BrowserRouter>
